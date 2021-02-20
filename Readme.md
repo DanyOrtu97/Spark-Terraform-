@@ -44,8 +44,8 @@ token="<YOUR AWS TOKEN>"
 
 Yuo can find the AWS ACCES KEY and AWS TOKEN on your AWS panel account on "Account Details". You can find it on variable.tf. Terraform will create 1 namenode and 8 datanode, each with an istance of type m3.medium
 
-##### Put your project into the "app" folder (you can find it on the terraform project folder)
-You need to create an "app" folder into the terraform project folder
+##### Put your project into the "app" folder
+You need to create an "app" folder into the terraform project folder to put your project inside.
 
 ##### Open a new terminal and type this command in order to generate a new ssh-key:
 ```
