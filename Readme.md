@@ -42,7 +42,7 @@ secret_key="<YOUR AWS SECRET KEY>"
 token="<YOUR AWS TOKEN>"
 ```
 
-Yuo can find the AWS ACCES KEY and AWS TOKEN on your AWS panel account on "Account Details". You can find it on variable.tf. Terraform will create 1 namenode and 8 datanode, each with an istance of type m3.medium
+Yuo can find the AWS ACCES KEY and AWS TOKEN on your AWS panel account on "Account Details". You can find it on variable.tf. Terraform will create 1 namenode and 8 datanode, each with an istance of type t2.medium
 
 ##### Put your project into the "app" folder
 You need to create an "app" folder into the terraform project folder to put your project inside.
