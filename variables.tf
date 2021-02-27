@@ -55,7 +55,7 @@ variable "namenode_count" {
 
 variable "datanode_count" {
     type = number
-    default = 10                         # count = 3 = 3 aws EC2
+    default = 2                         # count = 3 = 3 aws EC2
 }
 
 variable "ips" {
