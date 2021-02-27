@@ -197,7 +197,8 @@ sudo chown -R ubuntu /opt/hadoop-2.7.7
 
 # spark installation
 cd /opt/
-sudo wget https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7.tgz > /dev/null
+sudo wget https://archive.apache.org/dist/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7.tgz > /dev/null
+ 
 sudo tar -xvzf spark-3.0.1-bin-hadoop2.7.tgz > /dev/null
 
 echo '
