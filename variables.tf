@@ -5,17 +5,17 @@ variable "region" {
 
 variable "access_key" {
     type = string
-    default = " "
+    default = "ASIAWZTU4VEJSXZUWCMF"
 }
 
 variable "secret_key" {
     type = string
-    default = " "
+    default = "MQ4v4AbZA8/0Jtl0Gy021Nad3lQs3wcYYV5g0RvH"
 }
 
 variable "token" {
     type = string
-    default = " "
+    default = "FwoGZXIvYXdzEGsaDBBLsYsRKAak4yFiUyLJAXUJj9ZzwllwINxvSZb2kyCy88eqvqTSkIS2Z0sqARJnouDpDkF9UApR50v16qPIDWSrb2lXKX/IKZsul6wVgiyBZOmUbbkkpiBOpHoBpHvIO8qKM4WF1vn92LLqTubmHks4R9754OKq2CES3YCOMjClZr+nH/5hLouJqXHbIh65oYr89s2p5diLe0EUGfSLouyFto0sHB8SaiC7tNt3C/NuFLqOzWH7CzfKAhcmqqKCQVndGPfTnKmXkg5xnzfw47N6JFYg1B/gDCjRzu2BBjItOPXpBFHwGdPFx/PwsP+6REN6NiVO1RUT6UyvOOKLZzTKcuzFJB9ELbY0K3WX"
 }
 
 variable "instance_type" {
@@ -62,14 +62,6 @@ variable "ips" {
     default = {
         "0" = "172.31.0.102"
         "1" = "172.31.0.103"
-        #"2" = "172.31.0.104"
-        #"3" = "172.31.0.105"
-        #"4" = "172.31.0.106"
-        #"5" = "172.31.0.107"
-	#"6" = "172.31.0.108"
-        #"7" = "172.31.0.109"
-        #"8" = "172.31.0.110"
-        #"9" = "172.31.0.111"
     }
 }
 
@@ -77,13 +69,6 @@ variable "hostnames" {
     default = {
         "0" = "s02"
         "1" = "s03"
-        #"2" = "s04"
-        #"3" = "s05"
-        #"4" = "s06"
-        #"5" = "s07"
-        #"6" = "s08"
-        #"7" = "s09"
-        #"8" = "s10"
-        #"9" = "s11"
+
     }
 }

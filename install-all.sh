@@ -26,15 +26,7 @@ pip3 install --user pydoop
 echo '
 172.31.0.101 s01
 172.31.0.102 s02
-172.31.0.103 s03
-172.31.0.104 s04
-172.31.0.105 s05
-172.31.0.106 s06
-172.31.0.107 s07
-172.31.0.108 s08
-172.31.0.109 s09
-172.31.0.110 s10
-172.31.0.111 s11' | sudo tee --append /etc/hosts > /dev/null
+172.31.0.103 s03' | sudo tee --append /etc/hosts > /dev/null
 
 sudo chmod 700 /home/ubuntu/.ssh
 sudo chmod 600 /home/ubuntu/.ssh/id_rsa
@@ -177,15 +169,7 @@ s01' | sudo tee --append /opt/hadoop-2.7.7/etc/hadoop/masters > /dev/null
 
 echo '
 s02
-s03
-s04
-s05
-s06
-s07
-s08
-s09
-s10
-s11' | sudo tee /opt/hadoop-2.7.7/etc/hadoop/slaves > /dev/null
+s03' | sudo tee /opt/hadoop-2.7.7/etc/hadoop/slaves > /dev/null
 
 sudo sed -i -e 's/export\ JAVA_HOME=\${JAVA_HOME}/export\ JAVA_HOME=\/usr\/lib\/jvm\/java-8-openjdk-amd64/g' /opt/hadoop-2.7.7/etc/hadoop/hadoop-env.sh
 
@@ -221,15 +205,7 @@ export HADOOP_HOME=/opt/hadoop-2.7.7' | sudo tee --append conf/spark-env.sh > /d
 
 echo '
 s02
-s03
-s04
-s05
-s06
-s07
-s08
-s09
-s10
-s11' | sudo tee --append conf/slaves > /dev/null
+s03' | sudo tee --append conf/slaves > /dev/null
 
 cp conf/spark-defaults.conf.template conf/spark-defaults.conf
 
