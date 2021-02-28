@@ -5,17 +5,17 @@ variable "region" {
 
 variable "access_key" {
     type = string
-    default = "ASIAWZTU4VEJSXZUWCMF"
+    default = ""
 }
 
 variable "secret_key" {
     type = string
-    default = "MQ4v4AbZA8/0Jtl0Gy021Nad3lQs3wcYYV5g0RvH"
+    default = ""
 }
 
 variable "token" {
     type = string
-    default = "FwoGZXIvYXdzEGsaDBBLsYsRKAak4yFiUyLJAXUJj9ZzwllwINxvSZb2kyCy88eqvqTSkIS2Z0sqARJnouDpDkF9UApR50v16qPIDWSrb2lXKX/IKZsul6wVgiyBZOmUbbkkpiBOpHoBpHvIO8qKM4WF1vn92LLqTubmHks4R9754OKq2CES3YCOMjClZr+nH/5hLouJqXHbIh65oYr89s2p5diLe0EUGfSLouyFto0sHB8SaiC7tNt3C/NuFLqOzWH7CzfKAhcmqqKCQVndGPfTnKmXkg5xnzfw47N6JFYg1B/gDCjRzu2BBjItOPXpBFHwGdPFx/PwsP+6REN6NiVO1RUT6UyvOOKLZzTKcuzFJB9ELbY0K3WX"
+    default = ""
 }
 
 variable "instance_type" {
